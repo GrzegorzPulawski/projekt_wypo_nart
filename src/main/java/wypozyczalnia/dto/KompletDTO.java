@@ -2,6 +2,7 @@ package wypozyczalnia.dto;
 
 import lombok.*;
 
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -10,6 +11,8 @@ public class KompletDTO {
 
     private String nazwaKomplet;
     private Double cenaDoba;
+
+
 
 //    public KompletDTO() {
 //    }

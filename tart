@@ -1,0 +1,77 @@
+[33mcommit eefc7e44e368d507fd59f68e4e0eca2a0e066028[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Thu Nov 17 20:07:38 2022 +0100
+
+    polaczenie
+
+[33mcommit 3ec223c48a65304e28e3ec0470acdce4109b20ac[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Sun Nov 6 08:09:38 2022 +0100
+
+    umowa wypozyczenia
+
+[33mcommit d5436343293211110128cbe0bb54755cfa2d9d5a[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Thu Nov 3 15:54:50 2022 +0100
+
+    listowanie wypozyczen dodatkowe dane
+
+[33mcommit e108fa44b29cd8aebdaf31ba4cf81b52ac9c56a6[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Tue Nov 1 20:28:16 2022 +0100
+
+    wszystko dziala
+
+[33mcommit 00a0540f90f97850f638be8d43b16f05c1a74765[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Wed Oct 26 11:37:36 2022 +0200
+
+    zrobine wypozyczenie
+
+[33mcommit b9406b6a674c34e3b2779e7b6cdd8ea863e6fe01[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Mon Sep 12 12:43:19 2022 +0200
+
+    drobne zmiany
+
+[33mcommit c94715fd5a5fe191c0da4d34ba430ce1cb9c0c51[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Tue Aug 16 13:57:03 2022 +0200
+
+    metody klient
+
+[33mcommit 8285434e5f4f0db9df416a8938fd4712195b303b[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Sun Aug 14 16:43:46 2022 +0200
+
+    klientController
+
+[33mcommit 10dc0967f910c72e3c76138cb1be3bc5ec4b70b9[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Thu Aug 11 18:45:36 2022 +0200
+
+    pierwsze metody
+
+[33mcommit 00d5afca0c5bc52462dc74885b502e26e7d100b8[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Wed Aug 3 23:06:20 2022 +0200
+
+    nadal blad 404
+
+[33mcommit 357e2e3f9e9c4e3da066c7802b82a27c7bcc3b9b[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Fri Jul 29 19:26:56 2022 +0200
+
+    pierwsza metoda
+
+[33mcommit b853cc3d925a0f46f2841e5509c6785b715bf14e[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Fri Jul 29 10:22:18 2022 +0200
+
+    poprawione polaczenia
+
+[33mcommit 026d8deef88571a986baf2d3adb7ff349805885f[m
+Author: Grzegorz Pulawski <szkolanakrawedzi@gmail.com>
+Date:   Wed Jul 27 14:56:27 2022 +0200
+
+    modele i powiazania

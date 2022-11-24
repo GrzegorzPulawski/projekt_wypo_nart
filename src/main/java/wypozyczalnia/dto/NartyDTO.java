@@ -5,9 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import wypozyczalnia.model.RodzajNart;
 
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

@@ -17,14 +17,17 @@
     margin-left: auto;
     height: auto;
     width: auto;
-
-
-
 }
+
 .HeaderRight div {
     margin: 15px 30px 20px;
     display:inline-block;
     font-size: large;
     color: azure;
+}
 
+@media print{
+    .AppHeader{
+        display:none;
+    }
 }

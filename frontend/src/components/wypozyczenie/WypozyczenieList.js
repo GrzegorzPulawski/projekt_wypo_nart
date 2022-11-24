@@ -55,9 +55,6 @@ const WypozyczenieList = () => {
                     </Grid>)
                 })
             }
-            <div>
-                <Button  onClick={window.print}>drukuj</Button>
-            </div>
 
         </div>
     );

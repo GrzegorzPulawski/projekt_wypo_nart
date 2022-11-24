@@ -13,6 +13,7 @@ import KlientForm from "../formKlient/KlientForm";
 import Wypozyczenie from "../wypozyczenie/Wypozyczenie";
 import WypozyczenieList from "../wypozyczenie/WypozyczenieList";
 import Zwrot from "../wypozyczenie/Zwrot";
+import UmowaWypozyczenia from "../umowaWypozyczenia/UmowaWypozyczenia";
 
 
 const AppBody = () => {
@@ -32,6 +33,7 @@ const AppBody = () => {
                     <Route path={"/formKlient"} element={<KlientForm/>}></Route>
                     <Route path={"/wypozyczenielist"} element={<WypozyczenieList/>}></Route>
                     <Route path={"/zwrot-wypozyczenia"} element={<Zwrot/>}></Route>
+                    <Route path={"/umowa-wypozyczenia"} element={<UmowaWypozyczenia/>}></Route>
                 </Routes>
                 </div>
 
