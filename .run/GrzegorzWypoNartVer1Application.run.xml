@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GrzegorzWypoNartVer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <option name="ACTIVE_PROFILES" />
+    <module name="grzegorz_wypo_nart_ver1" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="wypozyczalnia.GrzegorzWypoNartVer1Application" />
+    <method v="2" />
+  </configuration>
+</component>
