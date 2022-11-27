@@ -49,6 +49,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.heroku.sdk/heroku-deploy -->
+        <dependency>
+            <groupId>com.heroku.sdk</groupId>
+            <artifactId>heroku-deploy</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
@@ -122,7 +130,7 @@
                                     <directory>frontend/build</directory>
                                 </resource>
                             </resources>
-                        </configuration>
+                            </configuration>
                     </execution>
                 </executions>
             </plugin>
@@ -139,6 +147,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.heroku.sdk</groupId>
+                <artifactId>heroku-maven-plugin</artifactId>
+                <version>3.0.5</version>
             </plugin>
         </plugins>
     </build>
