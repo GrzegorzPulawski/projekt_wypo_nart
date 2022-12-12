@@ -1,6 +1,6 @@
 import React from "react";
-import classes from "./Home.module.css";
-import {Card} from "react-bootstrap/Card";
+import classes from "./Home.module.css"
+import {Card} from "react-bootstrap";
 
 function Home() {
     return(
