@@ -30,8 +30,8 @@ const AppHeader = () => {
                     <Dropdown.Toggle split variant="outline-success" id="dropdown-split-basic" />
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="/list">Narty listuj</Dropdown.Item>
-                        <Dropdown.Item href="/butyList">Buty listuj</Dropdown.Item>
+                        <Dropdown.Item href="#/list">Narty listuj</Dropdown.Item>
+                        <Dropdown.Item href="#/butyList">Buty listuj</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </Container>
