@@ -25,8 +25,8 @@ function ButyList() {
         <div>
             <Grid container className={classes.ButyTableHeader}>
                 <Grid item xs={1}>Id</Grid>
-                <Grid item xs={3}>Kod kreskowy</Grid>
-                <Grid item xs={1}>Rozmiar</Grid>
+                <Grid item xs={3}>Nazwa</Grid>
+                <Grid item xs={1}>Kod kreskowy</Grid>
                 <Grid item xs={3}>NARTY/SNOWBOARD</Grid>
             </Grid>
             <div className={classes.Button}>
