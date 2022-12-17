@@ -34,12 +34,12 @@ function Wypozyczenie() {
                    <input type={'number'} id={'input-cenaWypozyczenia'} placeholder={'Możesz zmienić cene'} className={'form-input-field'}/>
                </Col>
                <Col className={classes.FormRow}>
-                   <label className={'form-input-label'}>ID komplet:</label>
-                   <input type={'number'} id={'input-komplet'} placeholder={'Nr kompletu'} className={'form-input-field'}/>
-               </Col>
-               <Col className={classes.FormRow}>
                    <label className={'form-input-label'}>ID Klient:</label>
                    <input type={'number'} id={'input-klient'} placeholder={'Nr Klienta'} className={'form-input-field'}/>
+               </Col>
+               <Col className={classes.FormRow}>
+                   <label className={'form-input-label'}>ID komplet:</label>
+                   <input type={'number'} id={'input-komplet'} placeholder={'Nr kompletu'} className={'form-input-field'}/>
                </Col>
                </Row>
                 <Row>

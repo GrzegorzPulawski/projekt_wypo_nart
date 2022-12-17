@@ -9,7 +9,7 @@ import wypozyczalnia.model.RodzajButow;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CreateKompletRequest {
-    private Long idNarty;
+    private Long idNart;
     private Long idButy;
     private String nazwa;
     private Double cenaDoba;

@@ -25,8 +25,8 @@ const NartyList = () => {
         <div>
             <Grid container  className={classes.NartyTableHeader}>
                 <Grid item xs={1}>Id</Grid>
-                <Grid item xs={2}>Kod kreskowy</Grid>
                 <Grid item xs={2}>Nazwa</Grid>
+                <Grid item xs={2}>Kod kreskowy</Grid>
                 <Grid item xs={3}>NARTY/SNOWBOARD</Grid>
             </Grid>
             <div className={classes.Button}>
@@ -38,8 +38,8 @@ const NartyList = () => {
                 nazwaZmiennej.map(value => {
                     return (<Grid container className={classes.NartyTableRow}>
                         <Grid item xs={1}>{value.idNart}</Grid>
-                        <Grid item xs={2}>{value.dlugoscNart}</Grid>
                         <Grid item xs={2}>{value.nazwaNart}</Grid>
+                        <Grid item xs={2}>{value.dlugoscNart}</Grid>
                         <Grid item xs={3}>{value.rodzajNart}</Grid>
                     </Grid>)
                 })
