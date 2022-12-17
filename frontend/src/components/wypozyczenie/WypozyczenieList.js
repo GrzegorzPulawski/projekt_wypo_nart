@@ -37,10 +37,10 @@ const WypozyczenieList = () => {
                 listWypozyczenie.map(value => {
                     //Formatuję datę wypozyczenia
                     var dataWypo=value.dataWypozyczenia
-                    var dataWypoGrid=moment(dataWypo).format('DD/MM/YY HH:MM')
+                    var dataWypoGrid=moment(dataWypo).format('DD/MM/YY HH')
                     //Formatuję datę zwrotu
                     var dataZwro=value.dataZwrotu
-                    var dataZwroGrid=moment(dataZwro).format('DD/MM/YY HH:MM')
+                    var dataZwroGrid=moment(dataZwro).format('DD/MM/YY HH')
 
 
                     return (<Grid container className={classes.TableRow}>
