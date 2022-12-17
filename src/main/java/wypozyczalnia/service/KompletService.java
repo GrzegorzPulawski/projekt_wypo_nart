@@ -30,7 +30,7 @@ public class KompletService {
         if (optionalButy.isPresent()) {
             Buty buty = optionalButy.get();
 
-            Optional<Narty> optionalNarty = nartyRepository.findById(request.getIdNarty());
+            Optional<Narty> optionalNarty = nartyRepository.findById(request.getIdNart());
             if (optionalNarty.isPresent()) {
                 Narty narty = optionalNarty.get();
 
