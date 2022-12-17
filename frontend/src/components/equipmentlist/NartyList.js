@@ -37,7 +37,7 @@ const NartyList = () => {
             {
                 nazwaZmiennej.map(value => {
                     return (<Grid container className={classes.NartyTableRow}>
-                        <Grid item xs={1}>{value.idNarty}</Grid>
+                        <Grid item xs={1}>{value.idNart}</Grid>
                         <Grid item xs={2}>{value.nazwaNart}</Grid>
                         <Grid item xs={2}>{value.dlugoscNart}</Grid>
                         <Grid item xs={3}>{value.rodzajNart}</Grid>
