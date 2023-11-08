@@ -40,7 +40,7 @@ public class WypozyczenieController {
     public List<WypozyczenieDTO> wypozyczenieDTOList(){return wypozyczenieService.listWypozyczenie();
     }
     @GetMapping("/show")
-    public List<WypozyczenieDTO> showUmowaWypozyczenia(@RequestParam Long idWypozyczenie){
+    public List<WypozyczenieDTO> showUmowaWypozyczenia(@RequestParam(required = false) Long idWypozyczenie){
         log.info("Request wyświetlenie kompletu z id: "+ idWypozyczenie);
         return wypozyczenieService.showWypozyczenie(idWypozyczenie);
     }
