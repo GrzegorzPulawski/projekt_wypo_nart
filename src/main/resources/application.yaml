@@ -1,13 +1,13 @@
-spring:
-  datasource:
-    username: ayz1yo0nj2ggd8nz
-    password: rf7k9nwylbs4yyv2
-    url: jdbc:mysql://nuepp3ddzwtnggom.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/csxutglkmlay0c2k?serverTimezone=Europe/Warsaw&createDatabaseIfNotExist=true
-  jpa:
-    hibernate:
-      ddl-auto: update
+  spring:
+    datasource:
+      username: ayz1yo0nj2ggd8nz
+      password: rf7k9nwylbs4yyv2
+      url: jdbc:mysql://nuepp3ddzwtnggom.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/csxutglkmlay0c2k?serverTimezone=Europe/Warsaw&createDatabaseIfNotExist=true
+    jpa:
+      hibernate:
+        ddl-auto: update
 
-server:
-  port: ${PORT}
+  server:
+    port: ${PORT}
 
 
